@@ -10,15 +10,21 @@ The process we used to analyze the data is supervised machine learning. We start
 *Machine Learning Model 1 (without oversampled data):
 
 ** Balanced accuracy score: 0.94427
+
 ** Precision and recall (healthy loan): 1.00 and 1.00
+
 ** Precision and recall (high-risk loan): 0.87 and 0.89
+
 ** The precision and recall of the healthy loans were spectacular, and the precision and recall of the high-risk loans were also very good.
 
 *Machine Learning Model 2 (with oversampled data):
 
 ** Balanced accuracy score: 0.94453
+
 ** Precision and recall (healthy loan): 0.90 and 0.99
+
 ** Precision and recall (high-risk loan): 0.99 and 0.89
+
 ** The precision of the healthy loans drops off in this data set, though the precision of the high-risk loans increased dramatically, so there is tradeoff between the two. Both are still near or over 90% accuracy, which would be incredible in a real world data set.
 
 ## Summary
